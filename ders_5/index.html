@@ -1,0 +1,97 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- 
+            inline :kendi yazısının olduğu kadar yer kaplar -> img,a,strong,b,em,br,i,span,var
+            block :kendine ait blok oluşturur  -> div, body,head,h1...h6,iframe,nav,ol,p,table,ul
+        -->
+        <!-- inline örnek
+            <span style="color:blue;">Mavi</span>
+            <span style="color:green;">Yesil</span>
+            <span style="color:yellow">Sari</span> -->
+            
+             <!-- block element örnek
+            <h3 style="color:blue;">Mavi</h3>
+            <h3  style="color:green;">Yeşil</h3>
+            <h3  style="color:yellow;">Sarı</h3> -->
+
+        <h1 id="anasayfa">HTML</h1>
+        <p>Lorem <strong>ipsum dolor</strong> sit  <em>amet consectetur</em> adipisicing elit. <a href="#">Sint, omnis.</a></p>
+        <!-- 
+            strong : önemli yerleri belirtir
+            span : hayali bir kutu inline olarak alan kaplar
+            hr: çizgi veriyor 
+
+        -->
+        <!-- span element örneği -->
+        <p>span:
+            Lorem ipsum dolor <strong>sit amet consectetur</strong> Lorem ipsum dolor sit amet consectetur.
+            <span style="color:red">Lorem ipsum dolor sit amet consectetur adipisicing elit!</span> elit. Quis, a?
+        </p>
+
+        <!-- div element örneği  : blok element tüm satırı kapladığı için bir alt satıra geçer  onun yerine br kulandık-->
+           <p> 
+            div: 
+            Lorem ipsum dolor sit,
+            <br>
+                amet consectetur adipisicing elit. Laboriosam, distinctio.
+            </p> 
+
+            <!-- burda p>strong>em vererek  iç içe kullandık klın ve italik -->
+            <p>
+                <strong>
+                    <em>Lorem, ipsum dolor sit amet consectetur adipisicing elit..</em>
+                </strong>
+            </p>
+            <!-- paragraf disinda da yazabilitriz ama bu kullanım sorun çıkartır -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eum.
+
+            <hr>
+
+          <div>
+            <h2><a href="#" >Blok Elementler ve İnline Elementler</a></h2>
+               <h3>Linklerle Calismak</h3>
+                <ul>
+                    <li><a href="https://kodluyoruz.org/" target="blank">Kodluyoruz sayfasına gidilcek</a></li>
+                    <li><a href="iletisim.html">İletişim sayfasına git</a></li>
+                    <li><a href="#en alt">En alt kismina git</a></li>
+                    <li><a href="mailto:aleyna.erkan.6767@gmail.com">Kodluyoruz'a mail at</a></li>
+                    <li><a href="tel:05302418337">telefon ac</a></li>
+                </ul>
+         </div>
+
+        <h3>Görsellerle Calisma</h3>
+
+            <img src="https://picsum.photos/400/600" alt="lorem Picsum"  border="2">
+            <img src="https://i.pinimg.com/236x/f2/d4/90/f2d490e0a8bf66193cdf97918b8986f6.jpg" alt="manzara resmi" border="2" align="right" width="330">
+            <img src="img/papatya.jpg" alt="papatya" title="papatya" border="2">
+            <img src="https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sonbahar" width="250" height="400">
+
+        <h2>Emmet / Zen Coding</h2>
+
+        <h3>Lorem.</h3>
+        <h3>Lorem.</h3>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Assumenda, optio!</li>
+                <li>Fugiat, reiciendis!</li>
+            </ol>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Atque, tenetur?</li>
+                <li>Omnis, minus.</li>
+            </ul>
+
+
+            <h2 id="en alt">
+                    <a href="#anasayfa">en üste git</a>
+            </h2>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error assumenda maxime, soluta debitis delectus!</p>
+    </body>
+    </html>
